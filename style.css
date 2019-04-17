@@ -1,5 +1,5 @@
-/* 
- * Some Default Styles are provided for your convenience. 
+/*
+ * Some Default Styles are provided for your convenience.
  * You can start adding your own CSS below line 60.
  */
 
@@ -61,8 +61,79 @@ section h2:after {
 /* Header defaults */
 header {
   background-color: rgba(37, 37, 37, 0.8);
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 1%;
+  border-radius: 0% 0% 10px 10px;
 }
 
-/* 
+#carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("/Users/jkichler/git/jrWorkshops/Landing-Page-Launchpad/images/bg/mountains.jpg");
+  background-size: cover;
+
+}
+
+nav {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 15%;
+}
+
+.nav-item a{
+  color: white;
+}
+
+#aboutContent {
+  display: flex;
+}
+
+#about {
+  background-color: lightgray;
+  padding-left: 1%
+}
+
+#aboutmockup {
+  width: 300%;
+  /* flex-grow: 3; */
+  align-self: flex-end;
+}
+
+#staffContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.staff-profile {
+  display: flex;
+  flex-basis: 30%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+i {
+  font-size: 250%;
+}
+
+.footer {
+  width: 100%;
+  background-color: rgb(32, 30, 28);
+  height: 80px;
+}
+
+/*
  * YOUR CSS:
  */
